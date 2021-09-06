@@ -1,0 +1,19 @@
+2021-09-01 21:26:17,218 - root - INFO - case:执行成功查询成功
+请求地址：http://apis.juhe.cn//lottery/bonus?key=098da4754ea96454b65b83464f342ebe&lottery_id=dlt&lottery_res=01%2C07%2C21%2C30%2C35%4008%2C11&lottery_no=21089	请求方式:GET
+响应头：{'Date': 'Wed, 01 Sep 2021 13:26:16 GMT', 'Content-Type': 'application/json;charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Set-Cookie': 'aliyungf_tc=1814651ab175065b13cf063de3cd0f8d1a8cc3cd4b9275531b245456da3c3eca; Path=/; HttpOnly', 'Etag': '399829f64ea5e080a23b45ca280b8693'}
+响应正文：{"reason":"执行成功","result":{"lottery_id":"dlt","lottery_name":"超级大乐透","lottery_no":"21089","lottery_date":"2021-08-04","real_lottery_res":"01,17,24,28,35,10,12","lottery_res":"01,07,21,30,35@08,11","in_money":"2","buy_red_ball_num":"5","buy_blue_ball_num":"2","hit_red_ball_num":"2","hit_blue_ball_num":"0","is_prize":"0","prize_msg":"未中奖","lottery_prize":null},"error_code":0}
+
+2021-09-01 21:26:17,290 - root - INFO - case:错误的请求KEY
+请求地址：http://apis.juhe.cn//lottery/bonus?key=&lottery_id=dlt&lottery_res=01%2C07%2C21%2C30%2C35%4008%2C11&lottery_no=21089	请求方式：GET
+响应头：{'Date': 'Wed, 01 Sep 2021 13:26:16 GMT', 'Content-Type': 'application/json;charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Set-Cookie': 'aliyungf_tc=c3786af89ad85ac8d6611f1365596bd70dac1e8c707c177e1b2a7515316e6aeb; Path=/; HttpOnly', 'Etag': 'e468a15c3a484123d42ce5e6e2d4e31a'}
+响应正文：{"resultcode":"101","reason":"错误的请求KEY","result":null,"error_code":10001}
+
+2021-09-01 21:26:17,367 - root - INFO - case:11错误的请求KEY
+请求地址：http://apis.juhe.cn//lottery/bonus?key=wwwww11232312321&lottery_id=dlt&lottery_res=01%2C07%2C21%2C30%2C35%4008%2C11&lottery_no=21089	请求方式：GET
+响应头：{'Date': 'Wed, 01 Sep 2021 13:26:16 GMT', 'Content-Type': 'application/json;charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Set-Cookie': 'aliyungf_tc=a27af8a6beb417fd3348697cc90fa16a0700fc6f11e9eff99f731c7148135cbb; Path=/; HttpOnly', 'Etag': '6c8d6e278c0b29e3924eeb8d4a1f60b7'}
+响应正文：{"resultcode":"101","reason":"错误的请求KEY","result":null,"error_code":10001}
+
+2021-09-01 21:26:17,463 - root - INFO - case:执行成功
+请求地址：http://apis.juhe.cn//lottery/bonus?key=098da4754ea96454b65b83464f342ebe&lottery_id=dlt&lottery_res=01%2C07%2C21%2C30%2C35%4008%2C11&lottery_no=21089	请求方式：GET
+响应头：{'Date': 'Wed, 01 Sep 2021 13:26:17 GMT', 'Content-Type': 'application/json;charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Set-Cookie': 'aliyungf_tc=64e4ee0c747f4db0edd24b72677e7fa4bcf44be523af22e5421610352a28c913; Path=/; HttpOnly', 'Etag': '2792793093af246537d6979105ccc4ed'}
+响应正文{"reason":"执行成功","result":{"lottery_id":"dlt","lottery_name":"超级大乐透","lottery_no":"21089","lottery_date":"2021-08-04","real_lottery_res":"01,17,24,28,35,10,12","lottery_res":"01,07,21,30,35@08,11","in_money":"2","buy_red_ball_num":"5","buy_blue_ball_num":"2","hit_red_ball_num":"2","hit_blue_ball_num":"0","is_prize":"0","prize_msg":"未中奖","lottery_prize":null},"error_code":0}

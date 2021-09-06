@@ -1,0 +1,5 @@
+2021-09-01 22:59:08,185 - root - INFO - case:11错误的请求KEY
+请求地址：http://apis.juhe.cn//lottery/bonus?key=wwwww11232312321&lottery_id=dlt&lottery_res=01%2C07%2C21%2C30%2C35%4008%2C11&lottery_no=21089	请求方式：GET
+响应头：{'Date': 'Wed, 01 Sep 2021 14:59:07 GMT', 'Content-Type': 'application/json;charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Set-Cookie': 'aliyungf_tc=f18faeba98844c0e60e6bc86a0ecc16cc8666acf07c2d1d62c5433f9db88c56a; Path=/; HttpOnly', 'Etag': '6c8d6e278c0b29e3924eeb8d4a1f60b7'}
+响应正文：{"resultcode":"101","reason":"错误的请求KEY","result":null,"error_code":10001}
+
